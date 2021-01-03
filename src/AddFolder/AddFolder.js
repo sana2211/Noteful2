@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ValiationError from './ValidationError';
+import ValiationError from '../ValidationError';
 import NotesContext from '../NotesContext';
 
 export default class AddFolder extends Component {
