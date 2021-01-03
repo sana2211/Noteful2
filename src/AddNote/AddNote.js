@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import { format } from 'date-fns'
 import NotesContext from '../NotesContext';
+import ValidationError from '../ValidationError';
+
 
 export default class AddNote extends Component {
   constructor(props) {
